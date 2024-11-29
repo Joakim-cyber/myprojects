@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #3E2723; /* Dark brown */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar-brand {
+    color: #D32F2F; /* Red */
+    font-family: 'Cursive', sans-serif; /* Placeholder for actual cursive font */
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-buttons .search-button,
+.navbar-buttons .join-button,
+.navbar-buttons .login-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-buttons .join-button {
+    background-color: #D32F2F; /* Red */
+    color: white;
+}
+
+.navbar-buttons .login-button {
+    background-color: transparent;
+    color: white;
+}
+.navbar-buttons .search-button {
+   background-color: transparent;
+   font-size: larger;
+}

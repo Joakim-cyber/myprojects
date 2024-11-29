@@ -1,0 +1,128 @@
+
+        .paragraph1{
+
+            background-color: red;
+            color: white;
+
+        }
+        .paragraph2{
+            color: red;
+
+        }
+
+        h2{
+            font-size: 30px;
+            color: blue;
+            border: 2px solid purple;
+        
+            
+        }
+        ol{
+            
+            color: blueviolet;
+        
+ 
+        }
+        
+		body {
+			font-family: Arial, sans-serif;
+			margin: 20px;
+		}
+		
+		h3 {
+			color: #333;
+		}
+		
+		h4{
+			color: #444;
+			margin-top: 20px;
+		}
+		
+		.section {
+			margin-bottom: 40px;
+		}
+		
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		
+		li {
+			margin-bottom: 10px;
+		}
+		
+		a {
+			text-decoration: none;
+			color: #337ab7;
+		}
+		
+		a:hover {
+			color: #23527c;
+		}
+
+		.circleshape{
+			height: 150px;
+			width: 100px;
+			border-radius: 50%;
+			background-color: black;
+		}
+		.rectangle{
+			height: 100px;
+			width: 100px;
+			background-color: blueviolet;
+			border-radius: 20%;
+
+
+		}
+		.topnav{
+			background-color: brown;
+			overflow: hidden;
+			 border:10px ;
+			border: color orange;
+		}
+		.topnav a{
+			float:left;
+			color:white;
+			text-align: center;
+			padding:14px 16px;
+			font-size: 17px;
+			text-align: left ;
+		
+		}
+		.button{
+		background:orangered;
+		border-radius:12px;
+		text-align: center;
+		padding: 10px;
+		width: 330px;
+	
+		
+		
+		}
+		.text{
+			color:white;
+		}
+		.text2{
+			color:orangered;
+		}
+		.text3{
+			font-size: larger;
+			text-align: left;
+			margin-left: 300px;
+		}
+		.button2{
+		background:orangered;
+		border-radius:12px;
+		text-decoration: solid;
+		padding: 15px;
+		width: 90px;
+		height: 10px;
+		margin-left:325px;
+
+		}
+
+	
+
+
+

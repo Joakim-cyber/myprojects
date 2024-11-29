@@ -1,0 +1,125 @@
+body {
+     margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: white;
+    
+    
+    
+   
+    
+  }
+  .navbar {
+    background-color: #3E2723; /* Dark brown */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    border-bottom: 2px solid #D32F2F;
+    
+    
+    
+    
+}
+.navbar-brand1 {
+  color:White; /* Red */
+  margin: 10px;
+}
+
+
+
+.navbar-brand2 {
+    color: orange; /* Red */
+    font-family: Brush Script MT; /* Placeholder for actual cursive font */
+    margin: 10px;
+    font-size: larger;
+}
+
+.navbar-expand-lg{
+  margin: 0;
+   color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.nav-item{
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+  
+
+}
+
+.navbar-buttons .join-button {
+    background-color: #D32F2F; /* Red */
+    color: white;
+    margin-left: 10px;
+   
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    cursor: pointer
+    
+}
+
+.navbar-buttons .login-button {
+    background-color: transparent;
+    color: white;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer
+}
+.navbar-buttons .search-button {
+   background-color: transparent;
+   font-size: larger;
+   margin-left: 10px;
+   padding: 5px 10px;
+   border: none;
+   cursor: pointer
+}
+  .login-container {
+    background-color: #444;
+    padding: 0px;
+    
+    
+    
+    
+
+    
+  }
+  
+  .login-container h2 {
+    color: red;
+  }
+  .form-field {
+    margin-bottom:10px;
+    
+  }
+  .form-field input {
+    width: calc(50% - 50px);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  .form-check {
+    margin-bottom: 10px;
+   
+  }
+  .form-check input {
+    margin-right: 5px;
+  }
+  .form-field input[type="submit"] {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: calc(50% - 50px);
+  }
+  .form-field a {
+    color: red;
+    text-decoration: none;
+}
+a:visited{
+  color: aqua;
+}

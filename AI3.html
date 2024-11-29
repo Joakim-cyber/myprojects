@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Page</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+  }
+  .login-header {
+    background-color: #d9534f;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #d9534f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .checkbox-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .checkbox-container input {
+    margin-right: 10px;
+  }
+  .forgot-password {
+    float: right;
+  }
+</style>
+</head>
+<body>
+
+<div class="login-container">
+  <h2 class="login-header">Sign in to your account</h2>
+  <label for="username"><b>Username or Email</b></label>
+  <input type="text" placeholder="Enter Username" name="username" required>
+  
+  <label for="password"><b>Password</b></label>
+  <input type="password" placeholder="Enter Password" name="password" required>
+  
+  <div class="checkbox-container">
+    <input type="checkbox" name="remember">
+    <label for="remember">Remember Me</label>
+  </div>
+  
+  <button type="submit">Continue</button>
+  <a href="#" class="forgot-password">Forgot your password?</a>
+</div>
+
+</body>
+</html>
